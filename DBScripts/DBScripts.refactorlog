@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="c74c0c71-ae05-432c-a223-38e0093efda6" ChangeDateTime="07/26/2015 14:38:15">
+    <Property Name="ElementName" Value="[dbo].[MLModelTable].[NumberOfAdjustedRecords]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MLModelTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NumberOfAdjustedEntries" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0caf168d-5e93-43df-b367-87c1ffbdbc4a" ChangeDateTime="07/26/2015 14:38:20">
+    <Property Name="ElementName" Value="[dbo].[MLModelTable].[NumberOfRejectedRecords]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MLModelTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NumberOfRejectedEntries" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0f47f878-1a16-4ce1-8d0b-f492ebea93a4" ChangeDateTime="07/26/2015 14:39:18">
+    <Property Name="ElementName" Value="[dbo].[MLModelTable].[TotalNumberOfEntries]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MLModelTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NumberOfEntries" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="94d38e14-3fe4-4a8b-bc76-21602e1d1cc8" ChangeDateTime="07/26/2015 14:42:11">
+    <Property Name="ElementName" Value="[dbo].[MLModelTable].[Day9]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MLModelTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Day9Hours" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2023c736-efa2-4108-a7bc-ddfe0cfb3ff7" ChangeDateTime="07/26/2015 14:45:41">
+    <Property Name="ElementName" Value="[dbo].[MLModelTable].[j]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MLModelTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Day3Hours" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d1b83ed9-9234-4a2b-9854-be7048abb4f6" ChangeDateTime="07/26/2015 14:47:40">
+    <Property Name="ElementName" Value="[dbo].[MLModelTable].[Day9CFHours]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MLModelTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Day8CFHours" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="70c5d256-1e46-4889-9ad7-15e11d84c51e" ChangeDateTime="07/26/2015 14:47:46">
+    <Property Name="ElementName" Value="[dbo].[MLModelTable].[Day9CFHours]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MLModelTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Day7CFHours" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f06ce3ac-ca89-4993-9b4d-ab3e40731cb2" ChangeDateTime="07/26/2015 14:47:50">
+    <Property Name="ElementName" Value="[dbo].[MLModelTable].[Day9CFHours]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MLModelTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Day6CFHours" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7b551e29-e4fe-4bab-bcad-c87820e5b210" ChangeDateTime="07/26/2015 14:47:54">
+    <Property Name="ElementName" Value="[dbo].[MLModelTable].[Day9CFHours]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MLModelTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Day5CFHours" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9c6d7089-0185-4079-8140-11627d8d69fb" ChangeDateTime="07/26/2015 14:47:59">
+    <Property Name="ElementName" Value="[dbo].[MLModelTable].[Day9CFHours]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MLModelTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Day4CFHours" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="884ef395-27b1-47b5-ba5a-e6d18c934b83" ChangeDateTime="07/26/2015 14:48:03">
+    <Property Name="ElementName" Value="[dbo].[MLModelTable].[Day9CFHours]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MLModelTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Day3CFHours" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="71c0cb8c-0173-4582-bd62-390901c64c74" ChangeDateTime="07/26/2015 14:48:06">
+    <Property Name="ElementName" Value="[dbo].[MLModelTable].[Day9CFHours]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MLModelTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Day2CFHours" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0dde5874-7b9b-46b3-9b23-ba7010c29815" ChangeDateTime="07/26/2015 14:48:11">
+    <Property Name="ElementName" Value="[dbo].[MLModelTable].[Day9CFHours]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MLModelTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Day1CFHours" />
+  </Operation>
+</Operations>
